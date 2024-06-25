@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+}
+button {
+    position: relative;
+    left: 45%;
+    background-color: rgb(116, 112, 112);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.back-button {
+    background-color: rgb(66, 66, 247);
+    border: none;
+    position: absolute;
+    left: 94%;
+    bottom: 92%;
+}
+a {
+    color: white;
+}
+.cal-button {
+    background-color: orange;
+}
+.p-title {
+    color:rgb(238, 242, 245);
+    font-weight: bold;
+    position: relative;
+    left: 45%;
+}
+.p-result {
+    color: white;
+    position: relative;
+    left: 45%;
+}

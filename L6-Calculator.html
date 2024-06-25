@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator App</title>
+    </head>
+
+    <link rel="stylesheet" href="L6-Calculator.css">
+
+    <body onload="displayDefault()">
+        <p>
+            <p class="p-title">CALCULATOR APP</p>
+            <p class="p-result"><span class="display-values"><br></span></p>
+        </p>
+        <p>
+            <button onclick="addeve('1')">1</button>
+            <button onclick="addeve('2')">2</button>
+            <button onclick="addeve('3')">3</button>
+            <button class="cal-button" onclick="addeve('+')">+</button>
+        </p>
+        <p>
+            <button onclick="addeve('4')">4</button>
+            <button onclick="addeve('5')">5</button>
+            <button onclick="addeve('6')">6</button>
+            <button class="cal-button" onclick="addeve('-')">-</button>
+        </p>
+        <p>
+            <button onclick="addeve('7')">7</button>
+            <button onclick="addeve('8')">8</button>
+            <button onclick="addeve('9')">9</button>
+            <button class="cal-button" onclick="addeve('*')">*</button>
+        </p>
+        <p>
+            <button onclick="addeve('0')">0</button>
+            <button onclick="addeve('.')">.</button>
+            <button onclick="cal()">=</button>
+            <button class="cal-button"onclick="addeve('/')">/</button>
+        </p>
+        <button onclick="clr()">Clear</button>
+        
+        <button class="back-button"><a href="L-9-DashBoard.html">Back</a></button>
+    </body>
+    <script src="L6-Calculator.js"></script>
+</html>
