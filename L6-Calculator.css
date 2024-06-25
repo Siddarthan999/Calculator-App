@@ -15,13 +15,6 @@ button {
     border-radius: 50px;
     cursor: pointer;
 }
-.back-button {
-    background-color: rgb(66, 66, 247);
-    border: none;
-    position: absolute;
-    left: 94%;
-    bottom: 92%;
-}
 a {
     color: white;
 }
